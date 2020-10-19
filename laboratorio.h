@@ -12,6 +12,13 @@ class laboratorio
     laboratorio();
     void agregarcomputadora(const computadora &p);
     void mostrar();
+
+    friend laboratorio& operator<<(laboratorio &lb,const computadora &c)
+    {
+        lb.agregarcomputadora(c);
+
+        return lb;
+    }
 };
 
 #endif
