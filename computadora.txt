@@ -1,0 +1,12 @@
+migse
+windows       
+lenovo
+4.00
+usuario
+windows
+microsoft
+8.00
+lucas
+Mac Os
+apple
+6.00
