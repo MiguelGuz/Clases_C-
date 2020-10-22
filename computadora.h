@@ -41,6 +41,7 @@ public:
     {
         string temp;
         float MemoriaRam;
+
         cout<<"Nombre de cuenta: "<<endl;
         getline(cin,c.nombre);
         cout<<"sistema Operativo: "<<endl;
