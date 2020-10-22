@@ -12,6 +12,8 @@ class laboratorio
     laboratorio();
     void agregarcomputadora(const computadora &p);
     void mostrar();
+    void respaldar();
+    void recuperar();
 
     friend laboratorio& operator<<(laboratorio &lb,const computadora &c)
     {
